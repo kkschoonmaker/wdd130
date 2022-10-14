@@ -1,0 +1,41 @@
+#title {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+#images {
+  border: none;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  display: block;
+  background-color: grey;
+  box-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#image1 {
+  width: 20%;
+  margin: 2em;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 0.5em;
+  border-color: rgb(71, 71, 71);
+}
+#image2 {
+  border-radius: 100%;
+  width: 20%;
+  margin: 2em;
+  border-style: solid;
+  border-width: 0.5em;
+  border-color: rgb(71, 71, 71);
+}
+#image3 {
+  border-radius: 100%;
+  width: 20%;
+  margin: 2em;
+  border-style: solid;
+  border-width: 0.5em;
+  border-color: rgb(71, 71, 71);
+}

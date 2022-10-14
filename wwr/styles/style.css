@@ -8,6 +8,9 @@ body {
 header {
   background-color: #e4f1ea;
 }
+.logo {
+  width: 80px;
+}
 .home-title {
   color: #2da9e1;
 }
