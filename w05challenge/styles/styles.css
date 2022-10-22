@@ -1,3 +1,7 @@
+body {
+  background-color: gray;
+  margin: 0 auto;
+}
 #title {
   width: 100%;
   height: auto;
