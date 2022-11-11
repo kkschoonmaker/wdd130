@@ -280,30 +280,25 @@ footer .social img {
 #faqs-page-top {
   width: 100%;
   display: grid;
-  grid-template-columns: fr fr fr;
-  grid-template-rows: fr fr fr fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 #faqs-img {
-  width: 100%;
   grid-column: 1/4;
   grid-row: 1/5;
 }
 #river-img {
   width: 100%;
-  grid-row: 1/5;
 }
-#faqs-box {
+.faqs-box {
   width: 100%;
-  align-content: center;
   grid-column: 2/3;
   grid-row: 4/5;
 }
 .faqs-title {
-  text-align: center;
   color: #e4f1ea;
   font-size: 2em;
-  margin-top: 10px;
 }
 .accordion {
   background-color: #e4f1ea;
