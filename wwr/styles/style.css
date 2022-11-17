@@ -55,6 +55,7 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
+  color: #155a7a;
 }
 #hero {
   display: grid;
@@ -282,19 +283,20 @@ footer .social img {
 }
 
 #faqs-img {
- display:grid;
- grid-template-columns: 1fr 1fr 1fr;
- grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 #river-img {
   width: 100%;
-  grid-column: 1/4 ;
+  grid-column: 1/4;
   grid-row: 1/4;
 }
 
 .faqs-title {
   color: #e4f1ea;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
   width: 100%;
   grid-column: 2/3;
@@ -302,7 +304,7 @@ footer .social img {
 }
 .accordion {
   background-color: #e4f1ea;
-  color:#f0a422;
+  color: #f0a422;
   cursor: pointer;
   padding: 12px;
   margin: 20px auto;
@@ -326,7 +328,6 @@ footer .social img {
   overflow: hidden;
 }
 
-
 .faqs-grid {
   align-self: center;
   display: grid;
@@ -334,5 +335,10 @@ footer .social img {
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   gap: 10px;
+}
 
+@media only screen and (max-width: 900px) {
+  #faqs-img {
+    display: block;
+  }
 }
