@@ -30,7 +30,11 @@
   color: #d3d5d6;
   font-family: Montserrat, Helvetica, sans-serif;
 }
-
+ body{
+  background-color: #082945;
+  margin:0;
+  padding:0;
+ }
 h1 {
   color: #d3d5d6;
   font-family: "Contrail One";
