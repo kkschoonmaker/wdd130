@@ -82,7 +82,7 @@ h1 {
 }
 nav {
   display: grid;
-  grid-template-columns: 10px 150px 150px 150px auto;
+  grid-template-columns: 10px 150px 175px 150px auto;
   grid-template-rows: auto;
   margin: 30px;
 }
