@@ -428,6 +428,7 @@ between the labels and their text fields */
   footer {
     flex-direction: column;
     font-size: 0.75em;
+    width: 100%;
   }
   nav {
     display: block;
