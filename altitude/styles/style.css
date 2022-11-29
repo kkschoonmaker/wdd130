@@ -452,7 +452,7 @@ between the labels and their text fields */
   #multi_sport_athletes_image,
   #run_by_volunteers_image {
     display: block;
-    width: 98%;
+    width: 100%;
   }
 }
 
