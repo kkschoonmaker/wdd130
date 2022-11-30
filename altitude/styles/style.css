@@ -319,7 +319,7 @@ footer .social img {
 
 .altitude_gear_heading {
   width: 100%;
-  margin: 60px;
+ padding:60px;
 }
 
 .flex-container {
@@ -331,11 +331,11 @@ footer .social img {
   align-items: flex-start;
 }
 .flex-item {
-  /*width:#;
-  height:#*/
+  width: 100%;
+  height: auto;
   flex-grow: 1;
   flex-shrink: 0;
-  flex-basis: 200px;
+  flex-basis: 320px;
   justify-content: flex-start;
   display: flex;
   padding-left: 20px;
@@ -343,6 +343,9 @@ footer .social img {
 
 .flex-item img {
   cursor: pointer;
+}
+figcaption {
+  text-align: center;
 }
 figcaption a {
   color: #b1b3b6;
@@ -421,7 +424,7 @@ between the labels and their text fields */
   margin-left: 0.5em;
 }
 #feedback {
-  background-color: antiquewhite;
+  background-color: #082945;
   position: absolute;
   top: 0;
   left: 0;
