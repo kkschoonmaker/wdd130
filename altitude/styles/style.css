@@ -332,14 +332,12 @@ footer .social img {
   align-items: flex-start;
 }
 .flex-item {
-  width: 100%;
-  height: auto;
   flex-grow: 1;
-  flex-shrink: 0;
+  flex-shrink: 1;
   flex-basis: 320px;
   justify-content: flex-start;
   display: flex;
- padding: 20px;
+ padding-left: 20px;
 }
 
 .flex-item img {
