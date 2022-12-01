@@ -323,8 +323,7 @@ footer .social img {
 }
 
 .flex-container {
- 
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -335,10 +334,10 @@ footer .social img {
 .flex-item {
   flex-grow: 1;
   flex-shrink: 1;
-  margin:0 auto;
+  margin: 0 auto;
   justify-content: flex-start;
   display: flex;
-  padding-left:auto;  
+
 }
 
 .flex-item img {
@@ -346,12 +345,10 @@ footer .social img {
 }
 figcaption {
   text-align: center;
-  
 }
 figcaption a {
   color: #b1b3b6;
   text-decoration: none;
-  
 }
 figcaption a:hover {
   background-color: #d3d5d6;
