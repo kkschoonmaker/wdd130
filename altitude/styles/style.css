@@ -88,7 +88,7 @@ h1 {
   grid-row: 3/4;
   margin-left: 3px;
   text-align: left;
-  margin: 10px 0;
+  margin: 10px;
 }
 nav {
   display: grid;
@@ -98,15 +98,15 @@ nav {
 }
 #home {
   grid-column: 2/3;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 #coaches {
   grid-column: 3/4;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 #merchandise {
   grid-column: 4/5;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 nav a {
   margin: 1em;
@@ -222,6 +222,7 @@ nav a:hover {
   border: 10px solid #b1b3b6;
   box-shadow: 5px 5px 5px #717171;
   width: 100%;
+  margin-top: -45px;
 }
 #about_us_title,
 #about_us_text,
@@ -378,17 +379,20 @@ figcaption a:hover {
 }
 .coaches_img {
   float: right;
-  margin: 20px;
   border: 10px solid #b1b3b6;
   box-shadow: 5px 5px 5px #717171;
   width: 50%;
   display: block;
+  margin: 3% 5% 2% 2%;
 }
 .coaching_philosophy_title {
   margin-left: 3%;
 }
 #philosophy_list {
   padding: 3%;
+}
+ol li {
+  padding: 10px 0;
 }
 .our_coaches_list {
   padding: 0 3%;
@@ -522,7 +526,7 @@ between the labels and their text fields */
   }
   nav {
     display: block;
-    padding-top: 0.55em;
+    padding-top: 0.9em;
   }
   #home,
   #coaches,
@@ -530,6 +534,12 @@ between the labels and their text fields */
     display: block;
     padding: 1px;
     margin: 0px;
+  }
+  #about_us_image,
+  #growth_image,
+  #multi_sport_athletes_image,
+  #run_by_volunteers_image {
+    margin: 0;
   }
   .dot {
     height: 10px;
@@ -555,9 +565,13 @@ between the labels and their text fields */
     margin: 50px 0 auto;
   }
   .coaches_img {
+    float: none;
     display: block;
     width: 100%;
     margin: 20px 20px 20px auto;
+  }
+  ol li {
+    margin-left: 5%;
   }
 }
 
